@@ -36,7 +36,7 @@ function creaCheckBox(){
     row2.className = 'container container-main contair-full-height-flex-auto';
     let col = document.createElement('div');
     col.className =  'col';
-    col.style = 'display:flex'
+    //col.style = 'display:flex'
 
     grp_Australia = document.createElement('div');
       grp_Australia.className = 'margin-right';

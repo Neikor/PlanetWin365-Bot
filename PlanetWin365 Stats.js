@@ -40,7 +40,7 @@ function creaCheckBox(){
 
     grp_Australia = document.createElement('div');
       grp_Australia.className = 'margin-right';
-      grp_Australia.style = "padding-right:10px";
+      grp_Australia.style = "padding-right:5px";
     let chbox_Australia = document.createElement('input');
       chbox_Australia.type = 'checkbox';
       chbox_Australia.className = 'image-medium margin-right inline';
@@ -57,7 +57,7 @@ function creaCheckBox(){
 
     grp_Austria = document.createElement('div');
       grp_Austria.className = 'margin-right';
-      grp_Austria.style = "padding-right:10px";
+      grp_Austria.style = "padding-right:5px";
     let chbox_Austria = document.createElement('input');
       chbox_Austria.type = 'checkbox';
       chbox_Austria.className = 'image-medium margin-right inline';
@@ -74,7 +74,7 @@ function creaCheckBox(){
 
     grp_Croazia = document.createElement('div');
       grp_Croazia.className = 'margin-right';
-      grp_Croazia.style = "padding-right:10px";
+      grp_Croazia.style = "padding-right:5px";
     let chbox_Croazia = document.createElement('input');
       chbox_Croazia.type = 'checkbox';
       chbox_Croazia.className = 'image-medium margin-right inline';
@@ -91,7 +91,7 @@ function creaCheckBox(){
 
     grp_Francia = document.createElement('div');
       grp_Francia.className = 'margin-right';
-      grp_Francia.style = "padding-right:10px";
+      grp_Francia.style = "padding-right:5px";
     let chbox_Francia = document.createElement('input');
       chbox_Francia.type = 'checkbox';
       chbox_Francia.className = 'image-medium margin-right inline';
@@ -108,7 +108,7 @@ function creaCheckBox(){
 
     grp_Germania = document.createElement('div');
       grp_Germania.className = 'margin-right';
-      grp_Germania.style = "padding-right:10px";
+      grp_Germania.style = "padding-right:5px";
     let chbox_Germania = document.createElement('input');
       chbox_Germania.type = 'checkbox';
       chbox_Germania.className = 'image-medium margin-right inline';
@@ -125,7 +125,7 @@ function creaCheckBox(){
 
     grp_Inghilterra = document.createElement('div');
       grp_Inghilterra.className = 'margin-right';
-      grp_Inghilterra.style = "padding-right:10px";
+      grp_Inghilterra.style = "padding-right:5px";
     let chbox_Inghilterra = document.createElement('input');
       chbox_Inghilterra.type = 'checkbox';
       chbox_Inghilterra.className = 'image-medium margin-right inline';
@@ -142,7 +142,7 @@ function creaCheckBox(){
 
     grp_Italia = document.createElement('div');
       grp_Italia.className = 'margin-right';
-      grp_Italia.style = "padding-right:10px";
+      grp_Italia.style = "padding-right:5px";
     let chbox_Italia = document.createElement('input');
       chbox_Italia.type = 'checkbox';
       chbox_Italia.className = 'image-medium margin-right inline';
@@ -159,7 +159,7 @@ function creaCheckBox(){
 
     grp_Olanda = document.createElement('div');
       grp_Olanda.className = 'margin-right';
-      grp_Olanda.style = "padding-right:10px";
+      grp_Olanda.style = "padding-right:5px";
     let chbox_Olanda = document.createElement('input');
       chbox_Olanda.type = 'checkbox';
       chbox_Olanda.className = 'image-medium margin-right inline';
@@ -176,7 +176,7 @@ function creaCheckBox(){
 
     grp_Rep_Ceca = document.createElement('div');
       grp_Rep_Ceca.className = 'margin-right';
-      grp_Rep_Ceca.style = "padding-right:10px";
+      grp_Rep_Ceca.style = "padding-right:5px";
     let chbox_Rep_Ceca = document.createElement('input');
       chbox_Rep_Ceca.type = 'checkbox';
       chbox_Rep_Ceca.className = 'image-medium margin-right inline';
@@ -193,7 +193,7 @@ function creaCheckBox(){
 
     grp_Scozia = document.createElement('div');
       grp_Scozia.className = 'margin-right';
-      grp_Scozia.style = "padding-right:10px";
+      grp_Scozia.style = "padding-right:5px";
     let chbox_Scozia = document.createElement('input');
       chbox_Scozia.type = 'checkbox';
       chbox_Scozia.className = 'image-medium margin-right inline';
@@ -210,7 +210,7 @@ function creaCheckBox(){
 
     grp_Spagna = document.createElement('div');
       grp_Spagna.className = 'margin-right';
-      grp_Spagna.style = "padding-right:10px";
+      grp_Spagna.style = "padding-right:5px";
     let chbox_Spagna = document.createElement('input');
       chbox_Spagna.type = 'checkbox';
       chbox_Spagna.className = 'image-medium margin-right inline';
@@ -227,7 +227,7 @@ function creaCheckBox(){
 
     grp_Svizzera = document.createElement('div');
       grp_Svizzera.className = 'margin-right';
-      grp_Svizzera.style = "padding-right:10px";
+      grp_Svizzera.style = "padding-right:5px";
     let chbox_Svizzera = document.createElement('input');
       chbox_Svizzera.type = 'checkbox';
       chbox_Svizzera.className = 'image-medium margin-right inline';
@@ -244,7 +244,7 @@ function creaCheckBox(){
 
     grp_Sel_tutto = document.createElement('div');
       grp_Sel_tutto.className = 'margin-right';
-      grp_Sel_tutto.style = "padding-right:10px";
+      grp_Sel_tutto.style = "padding-right:5px";
     let chbox_Sel_tutto = document.createElement('input');
       chbox_Sel_tutto.type = 'checkbox';
       chbox_Sel_tutto.className = 'image-medium margin-right inline';

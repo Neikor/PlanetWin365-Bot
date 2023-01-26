@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PlanetWin365 Stats
 // @namespace    https://s5.sir.sportradar.com/planetwin365hosted/it/1
-// @version      1.0
+// @version      1.0.1
 // @description  Take Over and Under stats from PlanetWin365
 // @author       Neikor
 // @match        https://s5.sir.sportradar.com/planetwin365hosted/it/1
@@ -170,7 +170,7 @@ function creaCheckBox(){
       chbox_Rep_Ceca.type = 'checkbox';
       chbox_Rep_Ceca.className = 'image-medium margin-right inline';
       chbox_Rep_Ceca.id = "Rep_Ceca" ;
-      chbox_Rep_Ceca.name= "Rep_Ceca" ;
+      chbox_Rep_Ceca.name= "Repubblica Ceca" ;
       chbox_Rep_Ceca.value= "1";
       chbox_Rep_Ceca.checked = false;
     let lbl_Rep_Ceca = document.createElement('label');
@@ -424,11 +424,11 @@ async function grab(webpage) {
         //for(let x = 0; x < 3; x++){
           //btn_dove[x].children[0].click()
 
-          //mi prendo solo le righe > 90%
+          //mi prendo solo le righe > 88%
         for (let i = 0; i < tabellaUnderOver.children[1].childElementCount; i++) {
           let numeroPercentualeUO = parseFloat(tabellaUnderOver.getElementsByClassName("hidden-xs-up visible-md-up")[i].textContent);
           let squadraTabellaOver = tabellaUnderOver.getElementsByClassName("hidden-xs-up visible-md-up")[i].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.children[2].textContent; 
-          if (numeroPercentualeUO >= 90) {
+          if (numeroPercentualeUO >= 88) {
             let dataEvento;
             for(let x =0; x<prossimePartite.length; x++){
               let squadraCasa = prossimePartite[x].getElementsByClassName('row flex-items-xs-middle')[0].children[0].innerText;
@@ -457,11 +457,11 @@ async function grab(webpage) {
         // for(let x = 0; x < 3; x++){
         //   btn_dove[x].children[0].click()
 
-          //mi prendo solo le righe > 90%
+          //mi prendo solo le righe > 88%
           for (let i = 0; i < tabellaUnderOver.children[1].childElementCount; i++) {
             let numeroPercentualeUO = parseFloat(tabellaUnderOver.getElementsByClassName("hidden-xs-up visible-md-up")[i].textContent);
             let squadraTabellaOver = tabellaUnderOver.getElementsByClassName("hidden-xs-up visible-md-up")[i].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.children[2].textContent; 
-            if (numeroPercentualeUO >= 90) {
+            if (numeroPercentualeUO >= 88) {
               let dataEvento;
               for(let x =0; x<prossimePartite.length; x++){
                 let squadraCasa = prossimePartite[x].getElementsByClassName('row flex-items-xs-middle')[0].children[0].innerText;
